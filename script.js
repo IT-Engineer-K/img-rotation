@@ -6,9 +6,3 @@ function handleOrientation(event) {
     var alpha = event.alpha;
     img.style.transform = `rotate(${alpha}deg)`;
 }
-const update = () => {
-    deg++;
-    if (deg == 360)
-        deg = 0
-}
-setInterval(update, 10)
